@@ -230,7 +230,7 @@ nav .logo-name {
 
 }
 .section-about-title{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     letter-spacing: .3px;
 }
 
@@ -277,7 +277,7 @@ nav .logo-name {
 }
 
 .skills-title{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .skills-info {
     display: flex; 
@@ -393,6 +393,10 @@ nav .logo-name {
         width: 100%; 
         padding: 0 20px; 
     }
+
+    .section-about-title{
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 576px){
@@ -491,12 +495,13 @@ nav .logo-name {
     padding: 0 40px;
 }
 
-.projects-name {
+.projects-name h3{
     /* color: #c700b0; */
     color: #e100ff;
     margin-bottom: 20px ;      
     font-weight: 500;  
-    font-size: 16px;          
+    font-size: 16px;    
+    text-align: center;
 }
 
 .projects-data p{   
