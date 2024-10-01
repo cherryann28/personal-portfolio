@@ -124,8 +124,10 @@ nav .logo-name {
     display: flex;
     align-items: center;
     justify-content: center; 
-    /* background: linear-gradient(to top,  #a98ce2, #f7cbd6); */
-    background: linear-gradient(to top,  #ddcdfd, #FDE5EC);
+    background: linear-gradient(to top,  #a98ce2, #f7cbd6);
+    /* background: linear-gradient(to top,  #ddcdfd, #FDE5EC); */
+    /* background-color: #726cf8; */
+/* background-image: linear-gradient(to top, #726cf8, #e975a8); */
     /* background: linear-gradient(to top,  #a98ce2, #FDE5EC); */
     height: 100vh;
 }
@@ -258,7 +260,6 @@ nav .logo-name {
     width: 50%; 
     display: flex;
     justify-content: center; 
-    outline: 1px solid blue;
     padding: 80px 20px 0 30px;
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
@@ -409,6 +410,10 @@ nav .logo-name {
 
     .about-info p{
         font-size: 14px;
+    }
+
+    .skills-title{
+        text-align: center;
     }
 
 }
@@ -594,7 +599,7 @@ nav .logo-name {
 
 .contact-item {
     background-color: #fcfbfb;
-    padding: 40px;
+    padding: 40px 40px 50px 40px;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s ease box-shadow;
@@ -610,6 +615,10 @@ nav .logo-name {
     width: 50px;
 }
 
+.contact-info h4{
+    margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 576px){
     .contact-info{
         font-size: 14px;
@@ -620,7 +629,7 @@ nav .logo-name {
 
 .footer-container{
     padding: 50px 60px 50px 60px; 
-    background-color: #333;
+    background-color: #222;
     color: #c7c7b4;
     font-size: 15px;
 }
