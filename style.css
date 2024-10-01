@@ -164,12 +164,16 @@ nav .logo-name {
     font-size: 36px;
 }
 
+.home-button{
+    margin: 10px 0;
+}
 .home-button .home-contact-link{
     background: linear-gradient(to bottom right, #6F61C0, #e100ff);
     border: none;
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
+    margin: 10px;
 }
 
 .home-button .home-contact-link:hover {
@@ -213,11 +217,11 @@ nav .logo-name {
     }
 
     .home-button .home-contact-link{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .home-button .home-resume-link {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -561,11 +565,11 @@ nav .logo-name {
 
     .projects-info{
         margin-bottom: 40px;
+        padding: 20px;
     }
 
     .projects-name {
         font-size: 16px;
-        font-weight: bolder;                  
     }
     
     .projects-data p{   
