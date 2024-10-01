@@ -492,7 +492,8 @@ nav .logo-name {
 }
 
 .projects-name {
-    color: #c700b0;
+    /* color: #c700b0; */
+    color: #e100ff;
     margin-bottom: 20px ;      
     font-weight: 500;  
     font-size: 16px;          
@@ -650,7 +651,8 @@ nav .logo-name {
 .footer-logo a{
     font-size: 20px;
     font-weight: 500;
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #e100ff
 }
 
 .quick-links a{
@@ -685,7 +687,8 @@ nav .logo-name {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #e100ff
 }
 
 .created-by{
@@ -697,7 +700,8 @@ nav .logo-name {
 }
 
 .created-by span{
-    color:#e982dd;
+    /* color:#e982dd; */
+    color: #e100ff;
     font-weight: 500;
 }
 
