@@ -466,7 +466,6 @@ nav .logo-name {
 .projects-info img {
     width: 100%;
     max-width: 50%;
-           
     height: auto;           
            
 }
@@ -499,10 +498,10 @@ nav .logo-name {
     padding: 0 40px;
 }
 
-.projects-name h3{
+.projects-name{
     /* color: #c700b0; */
     color: #e100ff;
-    margin-bottom: 20px ;      
+    margin-bottom: 20px;     
     font-weight: 500;  
     font-size: 16px;    
     text-align: center;
@@ -564,7 +563,7 @@ nav .logo-name {
     } 
 
     .projects-info{
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
         padding: 20px;
     }
 
