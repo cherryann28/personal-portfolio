@@ -654,8 +654,16 @@ nav .logo-name {
     color: #ffff;
 }
 
-.social-icon li:hover{
+.social-icon li{
+    display: inline-block;
     background: linear-gradient(to bottom right, #6F61C0, #e100ff);
+    border-radius: 5px;
+    padding: 8px 14px;
+    margin-bottom: 10px;  
+}
+
+.social-icon li:hover{
+    background: linear-gradient(to bottom right, #5A50A5, #c700b0);
     color: #111;
 } 
 
@@ -668,13 +676,6 @@ nav .logo-name {
     font-weight: 500;
     font-size: 16px;
     color: #e982dd;
-}
-.social-icon li{
-    display: inline-block;
-    background-color:#c04fb3;
-    border-radius: 5px;
-    padding: 8px 14px;
-    margin-bottom: 10px;  
 }
 
 .created-by{
