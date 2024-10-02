@@ -36,6 +36,34 @@ document.querySelectorAll('.nav a').forEach(link => {
 });
 
 
+// Function to update active link on scroll
+function updateActiveLink() {
+    const sections = document.querySelectorAll('section');
+    const scrollPos = window.scrollY + window.innerHeight / 2; // Middle of the viewport
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionBottom = sectionTop + section.offsetHeight;
+
+        // const link = document.querySelector(`.nav a[href="#${section.id}"]`);
+        const link = document.querySelector('.nav a[href="#' + section.id + '"]');
+        
+        if (scrollPos >= sectionTop && scrollPos < sectionBottom) {
+            document.querySelectorAll('.nav a').forEach(navLink => {
+                navLink.classList.remove('active');
+            }); 
+            if (link) {
+                link.classList.add('active');
+            }
+        }
+    });
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', updateActiveLink);
+
+
+
 // Fix Nav
 const navBar = document.querySelector(".nav");
 

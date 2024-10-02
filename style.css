@@ -342,18 +342,13 @@ nav .logo-name a{
     flex: 0 1 calc(30% - 10px); /* Two columns with space */
     box-sizing: border-box; 
     padding: 20px;
-    box-shadow: #333 0px 1px 2px 0px;
+    box-shadow:rgba(0, 0, 0, 0.30) 0px 1px 2px 0px;
     /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     border-radius: 10px;   
 }
 
 .certification-items:hover {
-    flex: 0 1 calc(30% - 10px); /* Two columns with space */
-    box-sizing: border-box; 
-    padding: 20px;
     box-shadow: #c700b0 0px 1px 2px 0px;
-    border-radius: 10px;
-    
 }
 .certification-data a{
     color: #FDE5EC;
