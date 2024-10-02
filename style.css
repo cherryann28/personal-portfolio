@@ -434,7 +434,7 @@ nav .logo-name a{
     }
 
     .about-info p{
-        text-align: justify;
+        /* text-align: justify; */
         font-size: 14px;
     }
 
@@ -580,7 +580,7 @@ nav .logo-name a{
     .projects-data {
         width: 100%; 
         justify-content: center;
-        text-align: justify;
+        /* text-align: justify; */
         padding: 0;
     }
 }
