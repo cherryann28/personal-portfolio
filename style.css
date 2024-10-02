@@ -206,6 +206,10 @@ nav .logo-name a{
 }
 
 @media only screen and (max-width: 567px){
+    nav .logo-name a{
+        font-size: 18px;
+    } 
+
     .home-title h1{
         font-size: 20px;
     }
