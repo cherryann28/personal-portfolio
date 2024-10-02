@@ -693,6 +693,11 @@ nav .logo-name a{
 .quick-links a{
     color: #c7c7b4;
 }
+
+.quick-links a:hover{
+    color: #e982dd;
+}
+
 .phone{
     word-wrap: break-word;
 }
