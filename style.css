@@ -233,7 +233,7 @@ nav .logo-name a{
 }
 
 .container{
-     padding: 100px 60px; 
+     padding: 100px 60px 50px 60px; 
      height: auto;
      margin: auto;
      color: #333;
@@ -418,7 +418,7 @@ nav .logo-name a{
 
 @media only screen and (max-width: 576px){
     .container{
-        padding: 100px 20px;
+        padding: 100px 20px 0px 20px;
     }
     .about-profile{
         padding: 20px 0;
@@ -540,8 +540,9 @@ nav .logo-name a{
 
 @media (max-width: 1200px) {
     .projects-container{
-        padding: 20px 80px;
+        padding: 100px 80px 50px 80px;
     } 
+
     .projects-info {
         align-items: center; 
     }
@@ -583,7 +584,7 @@ nav .logo-name a{
 @media only screen and (max-width: 576px){
 
     .projects-container{
-        padding: 0 45px;
+        padding: 100px 45px 50px 45px;
     } 
 
     .projects-info{
