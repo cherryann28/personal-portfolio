@@ -722,8 +722,6 @@ nav .logo-name a{
 @media only screen and (min-width: 769px) and (max-width: 1199px) {
     .footer-items {
         width: 90%;
-       
-        
     }
 }
 
@@ -743,12 +741,14 @@ nav .logo-name a{
     }
 
     .footer-logo a{
-        color: #e982dd;
+        /* color: #e982dd; */
+        color: #c700b0;
     }
 
     .footer-item h4{
         font-size: 15px;
-        color: #e982dd;
+        /* color: #e982dd; */
+        color: #c700b0;
     }
 
     .footer-logo a{
