@@ -607,6 +607,10 @@ nav .logo-name a{
     color: #333;
 }
 
+.contact-container .section-title{
+    margin-bottom: 30px;
+}
+
 .contact-title {
     margin-bottom: 30px;
 }
@@ -817,10 +821,6 @@ nav .logo-name a{
 @media screen and (max-width: 576px){
     .footer-container{
         padding: 40px;
-    }
-
-    .scroll-up{
-        margin-right: .5rem;
     }
 }
 
