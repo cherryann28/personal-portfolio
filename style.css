@@ -164,7 +164,6 @@ nav .logo-name a{
 }
 .home-title h1{
     font-size: 36px;
-    color:
 }
 
 .home-button{
@@ -270,7 +269,7 @@ nav .logo-name a{
 .about-info {
     width: 100%; 
     padding: 0 20px; 
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .about-skills{
@@ -504,9 +503,9 @@ nav .logo-name a{
 
 .projects-name{
     /* color: #c700b0; */
-    color: #e100ff;
+    color: #c700b0;
     margin-bottom: 20px;     
-    font-weight: 500;  
+    /* font-weight: 600;   */
     font-size: 16px;    
     text-align: center;
 }
@@ -665,7 +664,7 @@ nav .logo-name a{
     font-size: 20px;
     font-weight: 500;
     /* color: #e982dd; */
-    color: #e100ff
+    color: #c700b0;
 }
 
 .quick-links a{
@@ -690,7 +689,6 @@ nav .logo-name a{
 
 .social-icon li:hover{
     background: linear-gradient(to bottom right, #5A50A5, #c700b0);
-    color: #111;
 } 
 
 .footer-item ul li{
@@ -702,7 +700,7 @@ nav .logo-name a{
     font-weight: 500;
     font-size: 16px;
     /* color: #e982dd; */
-    color: #e100ff
+    color: #c700b0;
 }
 
 .created-by{
@@ -715,7 +713,7 @@ nav .logo-name a{
 
 .created-by span{
     /* color:#e982dd; */
-    color: #e100ff;
+    color: #c700b0;
     font-weight: 500;
 }
 
