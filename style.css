@@ -51,7 +51,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #111;
+    color: #333;
 }
 
 nav a.active, nav a:hover {
@@ -63,8 +63,9 @@ nav li:first-child{
     margin-right: auto;
 }
 
-nav .logo-name {
+nav .logo-name a{
     font-size: 20px;
+    color: #c700b0;
 }   
 
 .sidebar{
@@ -125,11 +126,8 @@ nav .logo-name {
     align-items: center;
     justify-content: center; 
     background: linear-gradient(to top,  #a98ce2, #f7cbd6);
-    /* background: linear-gradient(to top,  #ddcdfd, #FDE5EC); */
-    /* background-color: #726cf8; */
-/* background-image: linear-gradient(to top, #726cf8, #e975a8); */
-    /* background: linear-gradient(to top,  #a98ce2, #FDE5EC); */
     height: 100vh;
+    color: #333;
 }
 
 
@@ -160,8 +158,13 @@ nav .logo-name {
     text-align: center; 
 }
 
+.home-title p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 .home-title h1{
     font-size: 36px;
+    color:
 }
 
 .home-button{
@@ -182,24 +185,16 @@ nav .logo-name {
     transition: background 0.3s ease; 
 }
 
-.home-button .home-resume-link{
-    border-radius: 50px;
-    border: 1px solid #111;
-    padding: 10px 20px;
-    color: #111;
-}
-
 .home-button .home-resume-link {
     border-radius: 50px;
-    border: 1px solid #111;
+    border: 1px solid #333;
     padding: 10px 20px;
-    color: #111; 
+    color: #333; 
     background-color: transparent; 
     transition: all 0.3s ease; 
 }
 
 .home-button .home-resume-link:hover {
-    color: #111; 
     background: linear-gradient(to top,  #ddcdfd, #FDE5EC);
     border-color: #999; 
 }
@@ -231,6 +226,7 @@ nav .logo-name {
     text-align: center;
     margin-bottom: 50px;
     letter-spacing: .3px;
+    color: #333;    
 
 }
 .section-about-title{
@@ -242,6 +238,7 @@ nav .logo-name {
      padding: 100px 60px 50px 60px; 
      height: auto;
      margin: auto;
+     color: #333;
 }
 
 .about-container{
@@ -273,7 +270,7 @@ nav .logo-name {
 .about-info {
     width: 100%; 
     padding: 0 20px; 
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .about-skills{
@@ -289,7 +286,7 @@ nav .logo-name {
 }
 
 .skills-data{
-    border: 1px solid #111;
+    border: 1px solid #333;
     display: flex;
     padding: 5px;
     border-radius: 5px;
@@ -348,8 +345,6 @@ nav .logo-name {
     box-sizing: border-box; 
     padding: 20px;
     box-shadow: #c700b0 0px 1px 2px 0px;
-
-
     border-radius: 10px;
     
 }
@@ -358,13 +353,12 @@ nav .logo-name {
 }
 .certification-data h4{
     font-size: 16px;
-    color: #111;
     margin-bottom: 5px;
     font-weight: 600;
+    color: #333;
 }
 
 .certification-data p{
-    color: #111;
     font-size: 14px;
 }
 
@@ -400,6 +394,14 @@ nav .logo-name {
 
     .section-about-title{
         margin-bottom: 30px;
+    }
+
+    .skills-info {
+        justify-content: center;
+    }
+
+    .skills-title{
+        text-align: center;
     }
 }
 
@@ -457,6 +459,7 @@ nav .logo-name {
     flex-direction: column;       
     margin: 0 auto;   
     word-spacing: 5px; 
+    color: #333;
 }
 
 .project-list{
@@ -478,6 +481,7 @@ nav .logo-name {
     margin-bottom: 50px;    
     padding: 40px;
     flex-wrap: wrap; 
+    color: #333;
     /* box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     /* background-image: linear-gradient(to right, #f8eaee, #ffffff, #ffffff, #f8eaee); */
@@ -510,7 +514,8 @@ nav .logo-name {
 .projects-data p{   
     line-height: 1.6;
     font-size: 14px;
-     color: #111;
+    
+    text-align: center;
 }
 
 
@@ -587,6 +592,7 @@ nav .logo-name {
     /* background: linear-gradient(to top, #ddcdfd, #FDE5EC); */
     background: linear-gradient(to top,  #a98ce2, #f7cbd6);
     padding: 100px 50px;
+    color: #333;
 }
 
 .contact-title {
