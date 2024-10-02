@@ -226,7 +226,6 @@ nav .logo-name a{
     margin-bottom: 50px;
     letter-spacing: .3px;
     color: #333;    
-
 }
 .section-about-title{
     margin-bottom: 20px;
@@ -424,6 +423,14 @@ nav .logo-name a{
 
     .skills-title{
         text-align: center;
+    }
+
+    .section-about-title{
+        font-size: 22px;
+    }
+
+    .section-title{
+        font-size: 22px;
     }
 
 }
@@ -638,6 +645,14 @@ nav .logo-name a{
 @media only screen and (max-width: 576px){
     .contact-info{
         font-size: 14px;
+    }
+
+    .contact-title h3{
+        font-size: 18px;
+    }
+
+    .contact-title p{
+        font-size: 16px;
     }
 }
 
