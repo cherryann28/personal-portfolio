@@ -643,6 +643,9 @@ nav .logo-name a{
 }
 
 @media only screen and (max-width: 576px){
+    .contact-container .section-title{
+        margin-bottom: 30px;
+    }
     .contact-info{
         font-size: 14px;
     }
