@@ -51,7 +51,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #505060;  
+    color: #000;  
 }
 
 nav a.active, nav a:hover {
@@ -535,6 +535,7 @@ nav .logo-name a{
 .projects-name{
     /* color: #c700b0; */
     /* color: #c700b0; */
+    color: #333;
     margin-bottom: 20px;     
     font-size: 16px;    
     text-align: center;
@@ -642,6 +643,10 @@ nav .logo-name a{
     margin-bottom: 30px;
 }
 
+.contact-title p{
+    color: #333;
+}
+
 .contact-title h3 {
     margin-bottom: 20px;
 }
@@ -691,6 +696,7 @@ nav .logo-name a{
 
     .contact-title p{
         font-size: 16px;
+        color: #333;
     }
 }
 
