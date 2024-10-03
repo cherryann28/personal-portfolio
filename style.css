@@ -612,7 +612,7 @@ nav .logo-name a{
     }
 
     .projects-name {
-        /* font-size: 15px;  */
+        font-size: 16px; 
         font-weight: bold;   
     }
     
@@ -696,8 +696,8 @@ nav .logo-name a{
     }
 
     .contact-title p{
-        font-size: 16px;
-        color: #333;
+        font-size: 15px;
+        color: rgb(7, 7, 7)060;
     }
 }
 
