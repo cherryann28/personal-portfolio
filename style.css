@@ -51,7 +51,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #333;
+    color: #505060;  
 }
 
 nav a.active, nav a:hover {
@@ -229,18 +229,19 @@ nav .logo-name a{
     text-align: center;
     margin-bottom: 50px;
     letter-spacing: .3px;
-    color: #333;    
+    color: #505060;    
 }
 .section-about-title{
     margin-bottom: 20px;
     letter-spacing: .3px;
+    color: #505060;  
 }
 
 .container{
      padding: 100px 60px 50px 60px; 
      height: auto;
      margin: auto;
-     color: #333;
+     color: #505060;  
 }
 
 .about-container{
@@ -347,8 +348,10 @@ nav .logo-name a{
     box-sizing: border-box; 
     padding: 20px;
     box-shadow:rgba(0, 0, 0, 0.30) 0px 1px 2px 0px;
+    /* box-shadow:0 2px 25px 0 rgba(110, 110, 110, .12); */
     /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     border-radius: 10px;   
+    background-color: #f1f1f1;
 }
 
 .certification-items:hover {
@@ -361,12 +364,12 @@ nav .logo-name a{
     font-size: 16px;
     margin-bottom: 5px;
     font-weight: 600;
-    color: #333;
+    color: #505060;
 }
 
 .certification-data p{
     font-size: 14px;
-    color:#333;
+    color: #505060;
 }
 
 
@@ -483,7 +486,8 @@ nav .logo-name a{
     flex-direction: column;       
     margin: 0 auto;   
     word-spacing: 5px; 
-    color: #333;
+    color: #505060;
+    background-color: #f2f2f2;
 }
 
 .project-list{
@@ -493,9 +497,9 @@ nav .logo-name a{
 .projects-info img {
     width: 100%;
     max-width: 50%;
-    height: auto;           
-           
+    height: auto;                  
 }
+
 .projects-info {
     display: flex;                 
     align-items: flex-start;          
@@ -505,7 +509,8 @@ nav .logo-name a{
     margin-bottom: 50px;    
     padding: 40px;
     flex-wrap: wrap; 
-    color: #333;
+    color: #505060;
+    background-color: #fff;
     /* box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     /* background-image: linear-gradient(to right, #f8eaee, #ffffff, #ffffff, #f8eaee); */
@@ -513,7 +518,7 @@ nav .logo-name a{
 
 .projects-info:hover{
     border-radius: 5px;
-    background-image: linear-gradient(to right, #ffffff, #ffffff, #FDE5EC, #FDE5EC);
+    /* background-image: linear-gradient(to right, #ffffff, #ffffff, #FDE5EC, #FDE5EC); */
     border-radius: 5px;
     transform: rotate(3deg);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 15px 15px -5px;
@@ -592,11 +597,14 @@ nav .logo-name a{
     } 
 
     .projects-info{
+        padding: 0;
+    }
+    .projects-data{
         padding: 20px;
     }
 
     .projects-name {
-        font-size: 15px;
+        font-size: 15px; 
         font-weight: bold;   
     }
     
@@ -617,7 +625,7 @@ nav .logo-name a{
     /* background: linear-gradient(to top, #ddcdfd, #FDE5EC); */
     background: linear-gradient(to top,  #a98ce2, #f7cbd6);
     padding: 100px 50px;
-    color: #333;
+    color: #505060;
 }
 
 .contact-container .section-title{
