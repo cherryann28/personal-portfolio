@@ -645,7 +645,7 @@ nav .logo-name a{
 }
 
 .contact-title p{
-    color: rgb(7, 7, 7)060;
+    font-weight: 600;
 }
 
 .contact-title h3 {
@@ -697,7 +697,6 @@ nav .logo-name a{
 
     .contact-title p{
         font-size: 15px;
-        color: rgb(7, 7, 7)060;
     }
 }
 
