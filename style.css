@@ -535,9 +535,10 @@ nav .logo-name a{
 .projects-name{
     /* color: #c700b0; */
     /* color: #c700b0; */
-    color: #333;
+    /* color: #333; */
+    color: rgb(7, 7, 7)060;
     margin-bottom: 20px;     
-    font-size: 16px;    
+    font-size: 18px;    
     text-align: center;
 }
 
@@ -611,7 +612,7 @@ nav .logo-name a{
     }
 
     .projects-name {
-        font-size: 15px; 
+        /* font-size: 15px;  */
         font-weight: bold;   
     }
     
@@ -644,7 +645,7 @@ nav .logo-name a{
 }
 
 .contact-title p{
-    color: #333;
+    color: rgb(7, 7, 7)060;
 }
 
 .contact-title h3 {
