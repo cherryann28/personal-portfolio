@@ -326,7 +326,7 @@ nav .logo-name a{
 }
 
 .about-certification{
-    padding: 0 20px;
+    padding: 0 20px 100px 20px;
 }
 
 .certification-title{
@@ -455,11 +455,6 @@ nav .logo-name a{
 
 }
 
-@media only screen and (max-width: 340px){
-    .container{
-        padding: 100px 0;
-    } 
-}
 
 @media (max-width: 790px) {
 
@@ -488,7 +483,7 @@ nav .logo-name a{
     margin: 0 auto;   
     word-spacing: 5px; 
     color: #505060;
-    /* background-color: #f2f2f2; */
+    background-color: #fafafa;
 }
 
 .project-list{
@@ -672,6 +667,7 @@ nav .logo-name a{
 
 .contact-item:hover {
     box-shadow: 0px 0px 5px 0 #0000002c;
+    
 }
 
 .contact-item .icon img {
