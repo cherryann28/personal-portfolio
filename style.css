@@ -276,6 +276,10 @@ nav .logo-name a{
     line-height: 1.8;
 }
 
+.about-info p{
+    word-spacing: 5px; 
+}
+
 .about-skills{
     margin-top: 40px;
 }
