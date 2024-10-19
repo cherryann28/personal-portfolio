@@ -377,6 +377,7 @@ nav .logo-name a{
     box-sizing: border-box; 
     padding: 20px;
     border: 1px solid #e982dd;
+    /* background-color: #0a0a0a; */
     /* box-shadow: rgba(199, 0, 176, 0.12) 0px 2px 4px 0px, rgba(199, 0, 176, 0.32) 0px 2px 16px 0px; */
     /* box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
     box-shadow: #c700b0 0px 2px 2px 0px, #c700b0 0px 2px 6px 0px;
@@ -437,7 +438,7 @@ nav .logo-name a{
    
     /* border: 1px solid #e100ff;
     box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
-    border: 1px solid #e982dd;
+    border: 2px solid #e982dd;
     /* box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
     box-shadow: #c700b0 0px 2px 4px 0px, #c700b0 0px 2px 8px 0px;
 
@@ -888,6 +889,10 @@ nav .logo-name a{
     .portfolio-gallery {
         width: 100%;
         gap: 2rem;
+    }
+
+    .port-box{
+        border: none;
     }
 
     .contact-container{
