@@ -892,6 +892,10 @@ nav .logo-name a{
         gap: 2rem;
     }
 
+    .port-box {
+        /* min-height: 260px; */
+    }
+
     .contact-container{
         padding: 10px; 
     }
@@ -932,7 +936,7 @@ nav .logo-name a{
         overflow: auto;
     }
     .port-content h3{
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .port-content a{
