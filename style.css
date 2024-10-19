@@ -376,7 +376,7 @@ nav .logo-name a{
     flex: 0 1 calc(30% - 10px); /* Two columns with space */
     box-sizing: border-box; 
     padding: 20px;
-    border: 1px solid #e982dd;
+    border: 1px solid #c700b0;
     /* background-color: #0a0a0a; */
     /* box-shadow: rgba(199, 0, 176, 0.12) 0px 2px 4px 0px, rgba(199, 0, 176, 0.32) 0px 2px 16px 0px; */
     /* box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
@@ -438,7 +438,7 @@ nav .logo-name a{
    
     /* border: 1px solid #e100ff;
     box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
-    border: 2px solid #e982dd;
+    border: 2px solid #c700b0;
     /* box-shadow: #e982dd 0px 2px 4px 0px, #e982dd 0px 2px 8px 0px; */
     box-shadow: #c700b0 0px 2px 4px 0px, #c700b0 0px 2px 8px 0px;
 
@@ -936,7 +936,7 @@ nav .logo-name a{
         overflow: auto;
     }
     .port-content h3{
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .port-content a{
