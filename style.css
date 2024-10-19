@@ -61,7 +61,8 @@ nav a{
 }
 
 nav a.active, nav a:hover {
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #c700b0;
 }
 
 nav li:first-child{
@@ -70,7 +71,8 @@ nav li:first-child{
 
 nav .logo-name a{
     font-size: 20px;
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #c700b0;
 }   
 
 .sidebar{
@@ -616,7 +618,8 @@ nav .logo-name a{
 .footer-logo a{
     font-size: 20px;
     font-weight: 500;
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #c700b0;
 }
 
 .quick-links a{
@@ -624,7 +627,8 @@ nav .logo-name a{
 }
 
 .quick-links a:hover{
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #c700b0;
 }
 
 .phone{
@@ -658,7 +662,8 @@ nav .logo-name a{
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    color: #e982dd;
+    /* color: #e982dd; */
+    color: #c700b0;
 }
 
 .created-by{
@@ -671,7 +676,8 @@ nav .logo-name a{
 }
 
 .created-by span{
-    color:#e982dd;
+    /* color:#e982dd; */
+    color: #c700b0;
     font-weight: 500;
 }
 
