@@ -534,6 +534,7 @@ nav .logo-name a{
 .contact-title {
     margin-bottom: 30px;
     text-align: center;
+    padding: 0 30px;
 }
 
 .contact-title p{
@@ -795,6 +796,7 @@ nav .logo-name a{
 
 @media only screen and (max-width: 768px) {
     
+    
     .footer-items{
         width: 95%;
         margin: auto;
@@ -904,22 +906,27 @@ nav .logo-name a{
 
     .portfolio-gallery {
         width: 100%;
+        padding: 0 30px;
     }
 
     .contact-container{
         padding: 80px 10px; 
     }
-    
-    .footer-container{
-        padding: 40px;
-    }
 
+    .contact-items {
+        padding: 30px;
+    }
+    
     .contact-info h4{
         font-size: 20px;
     }
 
     .contact-info p{
         font-size: 14px;
+    }
+
+    .footer-container{
+        padding: 30px;
     }
 }
 
@@ -952,6 +959,8 @@ nav .logo-name a{
 
     .portfolio-gallery {
         grid-template-columns: 1fr; /* Stack items in one column */
+        /* gap: 4rem 0; */
+        padding: 30px;
     }
 
     .port-box {
@@ -979,6 +988,7 @@ nav .logo-name a{
 
     .contact-items {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller minimum size */
+        padding: 30px;
     }
 
 }
