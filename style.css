@@ -886,20 +886,15 @@ nav .logo-name a{
     }
 
     .projects-container{
-        padding: 10px; 
+        padding: 80px 10px 60px 10px;
     }
 
     .portfolio-gallery {
         width: 100%;
-        gap: 2rem;
-    }
-
-    .port-box {
-        /* min-height: 260px; */
     }
 
     .contact-container{
-        padding: 10px; 
+        padding: 80px 10px; 
     }
     
     .footer-container{
@@ -932,6 +927,7 @@ nav .logo-name a{
 
     .port-box {
         min-height: 250px;
+
     }
 
     .port-content{
@@ -942,9 +938,7 @@ nav .logo-name a{
     }
 
     .port-content a{
-        
         border-radius: 50%;
-        
         width: 30px;
         height: 30px;
     }
