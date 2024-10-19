@@ -429,7 +429,7 @@ nav .logo-name a{
 
 .port-box{
     position: relative;
-    background: #292e33;
+    /* background: #292e33; */
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -847,6 +847,7 @@ nav .logo-name a{
 
 @media(max-width: 576px) {
     
+    
     .home-data{
         font-size: 1rem;
         padding-top: 10rem;
@@ -889,10 +890,6 @@ nav .logo-name a{
     .portfolio-gallery {
         width: 100%;
         gap: 2rem;
-    }
-
-    .port-box{
-        border: none;
     }
 
     .contact-container{
