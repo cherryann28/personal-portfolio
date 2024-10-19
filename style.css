@@ -677,6 +677,7 @@ nav .logo-name a{
 
 .created-by span{
     /* color:#e982dd; */
+    /* color: #ec0ad2; */
     color: #c700b0;
     font-weight: 500;
 }
@@ -772,7 +773,7 @@ nav .logo-name a{
     }
 
     .about-profile{
-        width: 40%;
+        width: 50%;
     }
 
     .skills-info{
@@ -882,7 +883,7 @@ nav .logo-name a{
     }
 
     .about-profile img{
-        max-width: 100%;
+        width: 100%;
     }
 
     .about-profile{
@@ -933,6 +934,12 @@ nav .logo-name a{
         padding: 0 30px;
         padding-top: 10rem;
         /* margin-top: 5rem; */
+    }
+
+    
+    .about-profile{
+        width: 100%;
+        margin: 0;
     }
 
     .img-bg{
