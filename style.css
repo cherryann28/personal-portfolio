@@ -587,9 +587,13 @@ nav .logo-name a{
 }
 
 .contact-info h4{
+    font-size: 22px;
     margin-bottom: 5px;
 }
 
+.contact-info p{
+    font-size: 14px;
+}
 
 /* =============== FOOTER ============== */
 
@@ -902,7 +906,16 @@ nav .logo-name a{
     .footer-container{
         padding: 40px;
     }
+
+    .contact-info h4{
+        font-size: 20px;
+    }
+
+    .contact-info p{
+        font-size: 14px;
+    }
 }
+
 
 @media(max-width: 400px){
 
